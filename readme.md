@@ -1,4 +1,4 @@
-# GoQuant Trade Simulator
+#  Trade Simulator
 
 A real-time, high-performance crypto trade simulator built using Python. This project connects to a live Level 2 (L2) orderbook WebSocket from OKX to estimate transaction costs, including slippage, fees, market impact, and latency.
 
@@ -100,31 +100,3 @@ trade_simulator/
 
 ---
 
-## 🗣 How to Explain This in a Video
-
-### 🔹 Introduction
-
-"Hi, I'm Ritesh. This simulator connects to OKX to provide real-time trading metrics."
-
-### 🔹 Inputs
-
-"You can specify exchange, asset, order type, volatility, quantity, and fee tier."
-
-## Outputs
-
-"It shows slippage, fees, market impact, net cost, maker/taker ratio, and latency."
-
-## Models
-
-I used quant-style models for market impact and fees, logistic regression logic for maker/taker prediction, and basic latency tracking to monitor performance.
----
-
-## Notes
-
-* Built with performance in mind
-* Thread-safe GUI updates
-* Handles WebSocket errors gracefully
-
-## Acknowledgments
-
-Thanks to GoQuant for the opportunity to demonstrate real-time systems and trading model design.
